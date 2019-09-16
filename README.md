@@ -70,7 +70,7 @@ md_id
  
  id_user
  
-classe module(models.Models): 
+class module(models.Models): 
     title = models.CharField(max_length=255)    
     description = models.TextField()
     statut = models.BooleanField(default=True)
