@@ -4,9 +4,13 @@
  titre_md
  descripton
  statut
+ date_ajout
+ date_upd
+  
  
  SEMAINE
  titre
+ description
  date_ajout
  date_upd
  statut
@@ -14,16 +18,24 @@ md_id
  
  TEXT
  titre
+ description
  date_ajout
  date_upd
  statut
  semaine_id
  
  QUESTION
- quest_text
- point_quest
+ titre
+ description
  statut
  text_id
+ 
+ REPONSE
+ point
+ description
+ statut
+ id_question
+ id_user
  
 classe module(models.Models): 
     title = models.CharField(max_length=255)
